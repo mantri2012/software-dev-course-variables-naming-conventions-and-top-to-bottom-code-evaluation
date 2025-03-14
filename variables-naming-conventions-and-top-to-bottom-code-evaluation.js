@@ -18,15 +18,16 @@ You will:
   - Enhance the Program: Add at least two additional variables to improve the program’s functionality or clarity.
 
 Things to reflect on:
-  - Why is it important to use meaningful variable names?
-  - What are the common pitfalls to avoid when naming variables?
-  - How do clear variable names benefit team collaboration?
+  - Why is it important to use meaningful variable names? - As it improves readability, reduces confusion
+  - What are the common pitfalls to avoid when naming variables? - Vague Names, Inconsistent Naming Conventions, missleading names, 
+  - How do clear variable names benefit team collaboration? Reduces the Learning Curve, Promotes Consistency, Improves Code Reviews, Reduces Bugs, Encourages Collaboration
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let customerName = "Alice"; //Descriptive name for a person 
+let numberOfItems = 5;  //Descriptive name for the number of items 
+let itemPrice = 20;  // Descriptive name for the price of the item
+let totalAmountSpent = customerName + " bought " + numberOfItems + " items for $" + itemPrice + "."; // total amount spend
 
-console.log(d);
+console.log(totalAmountSpent);
+
