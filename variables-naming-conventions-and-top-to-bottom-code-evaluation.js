@@ -26,8 +26,12 @@ Things to reflect on:
 
 let customerName = "Alice"; //Descriptive name for a person 
 let numberOfItems = 5;  //Descriptive name for the number of items 
-let itemPrice = 20;  // Descriptive name for the price of the item
-let totalAmountSpent = customerName + " bought " + numberOfItems + " items for $" + itemPrice + "."; // total amount spend
+let itemsPrice = 20;  // Descriptive name for the price of the item
+let unitPrice = itemsPrice/numberOfItems;
+let purchaseLocation = "Costco"; // Descriptive name of the place of purchase
 
-console.log(totalAmountSpent);
+let customerShoppingDetails = customerName + " bought " + numberOfItems + " items for $" + itemsPrice +  " in " + purchaseLocation +" . Each item cost is " +unitPrice +" dollars."; 
+
+
+console.log(customerShoppingDetails);
 
